@@ -84,3 +84,7 @@ This has the effect of forwarding any request that looks like any other
 web request to the casual observer, but proxies it to the rest application
 instead.  
 
+If you deploy this on an OpenShift container, this code will use the 
+OpenShift environment variables to determine the server and port that the
+proxy and servers run on.
+
